@@ -1,16 +1,12 @@
-print("Hello Betty Blue")
-#make a SQLite database
+stock = {'cups': 5, 'plates': 6, 'bowls':10, 'hearts': 8}
 
-# products, prices, inventory
+pottery = input('What pottery was purchased? ') 
+customer = input('Who purchased the pottery? ' )
 
-#add and item
+if pottery in stock:
+    stock[pottery] -= 1
+    print('{} purchased {}'.format(customer, pottery))
+else:
+    print('{} are out of stock'.format(pottery))
+    
 
-#retrieve all items
-
-#delete an item
-
-
-#prompt for input
-# __main__
-    #while(true):
-     
