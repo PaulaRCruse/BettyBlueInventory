@@ -1,15 +1,15 @@
-# inventory system project 
+# Betty Blue Inventory System Project 
 
 from datetime import datetime
 import random
 import sys
 
 all_products = [
-    [1, 'Plates', 20, '40$'], 
-    [2, 'Cups',   100, '30$'], 
-    [3, 'bowls',    200, '25$'], 
-    [4, 'hearts',   100, '70$'], 
-    [5, 'Amethyst', 120, '50$']
+    [1, 'Plates',    20, '40$'], 
+    [2, 'Cups',      100, '30$'], 
+    [3, 'bowls',     200, '25$'], 
+    [4, 'hearts',    100, '70$'], 
+    [5, 'Amethyst',  120,'50$']
 ]
 
 def banner():
@@ -68,7 +68,6 @@ while(True):
                     item[2] -= 1
                     generate_bill(item, name)
                     print("Thanks For shopping with Us")
-                    sys.exit(0)
                 else:
                     print("Continue Exploring the shop")
     elif choice == 3:
