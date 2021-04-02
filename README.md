@@ -17,5 +17,5 @@ Features List
 
 
 Special features required - python3
-
+For Choice 3 to test with User ID and Password (UserID - Admin and Password - password)
 
