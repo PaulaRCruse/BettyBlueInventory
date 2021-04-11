@@ -11,6 +11,11 @@ all_products = [
     [4, 'hearts',    100, '70$'], 
     [5, 'Amethyst',  120,'50$']
 ]
+def Hello():
+    name=str(input("What is your name : "))
+    print("Hello & Wellcome to Betty Blue Pottery " + str(name))
+    return
+Hello()
 
 def banner():
     print("*************************************")
